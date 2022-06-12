@@ -2,7 +2,7 @@
 
 This project is a basic sentiment classifier. It is a web-based application. It takes raw english sentence as input and generates one of the output as "Positive", "Negative" and "Neutral" sentiment. This sentiment classifier was created using pretrained BART-Base-cased model from huggingface library. This model was trained using a custom dataset. 
 
-# Dependancy
+## Dependency
 1. We use Python 3.7.13 , pandas 1.3.5 and google_play_scraper: 1.0.3 versions.
 2. Install google-play-scrapper from https://github.com/JoMingyu/google-play-scraper
 3. "!pip install transformers" to install transformers.
@@ -22,7 +22,9 @@ This project is a basic sentiment classifier. It is a web-based application. It 
  To train the model, load the model using "model.load_state_dict(torch.load('best_model_state.bin'))" and save the model using torch.save(model.state_dict(),path).
  Download the model from google drive and then execute the following codes: <br>
  
-   def get_predictions(model, data_loader):\
+  
+  --def get_predictions(model, data_loader):\
+  
     model = model.eval()\
     review_texts = []\
     predictions = []\
