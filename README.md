@@ -23,9 +23,9 @@ This project is a basic sentiment classifier. It is a web-based application. It 
  Download the model from google drive and then execute the following codes: <br>
  
   
-  --def get_predictions(model, data_loader):\
   
-    model = model.eval()\
+    def get_predictions(model, data_loader): \
+    model = model.eval() \
     review_texts = []\
     predictions = []\
     prediction_probs = [] \
