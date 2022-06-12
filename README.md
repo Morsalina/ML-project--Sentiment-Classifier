@@ -7,3 +7,9 @@ This project is a basic sentiment classifier. It is a web-based application. It 
 2. Install google-play-scrapper from https://github.com/JoMingyu/google-play-scraper
 3. "!pip install transformers" to install transformers.
 
+## File Structure
+
+<b>Sentiment_classification.ipynb</b> : This is jupiter notebook contains code for the model and the custom dataset. 
+main.py : This file contains python code for deploying website, Flask python framework was used.
+model.py : This file contains code for defining and loading the model.
+
