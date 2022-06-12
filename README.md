@@ -9,7 +9,7 @@ This project is a basic sentiment classifier. It is a web-based application. It 
 
 ## File Structure
 
-<b>Sentiment_classification.ipynb</b> : This is jupiter notebook contains code for the model and the custom dataset. 
-main.py : This file contains python code for deploying website, Flask python framework was used.
-model.py : This file contains code for defining and loading the model.
+<b>Sentiment_classification.ipynb</b> : This is jupiter notebook contains code for the model and the custom dataset. <br> 
+<b> main.py </b>: This file contains python code for deploying website, Flask python framework was used. <br>
+<b> model.py </b>: This file contains code for defining and loading the model. <br>
 
